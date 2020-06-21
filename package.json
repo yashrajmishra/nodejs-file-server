@@ -1,23 +1,28 @@
 {
-  "name": "nodejs-file-server",
-  "version": "1.0.0",
-  "description": "a nodejs project to access movies",
-  "main": "index.js",
-  "scripts": {
-    "test": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yashrajmishra/nodejs-file-server.git"
-  },
-  "keywords": [
-    "nodejs",
-    "server"
-  ],
-  "author": "Yashraj Mishra",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yashrajmishra/nodejs-file-server/issues"
-  },
-  "homepage": "https://github.com/yashrajmishra/nodejs-file-server#readme"
+	"name": "nodejs-file-server",
+	"version": "1.0.0",
+	"description": "a nodejs project to access movies",
+	"main": "index.js",
+	"scripts": {
+		"run": "nodemon index.js -q",
+		"format": "prettier --write \"**/*.{js,jsx,json,md}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yashrajmishra/nodejs-file-server.git"
+	},
+	"keywords": [
+		"nodejs",
+		"server"
+	],
+	"author": "Yashraj Mishra",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/yashrajmishra/nodejs-file-server/issues"
+	},
+	"homepage": "https://github.com/yashrajmishra/nodejs-file-server#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"lodash": "^4.17.15"
+	}
 }
