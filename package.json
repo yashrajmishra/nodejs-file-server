@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-file-server",
+  "version": "1.0.0",
+  "description": "a nodejs project to access movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashrajmishra/nodejs-file-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server"
+  ],
+  "author": "Yashraj Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashrajmishra/nodejs-file-server/issues"
+  },
+  "homepage": "https://github.com/yashrajmishra/nodejs-file-server#readme"
+}
