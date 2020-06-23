@@ -13,6 +13,7 @@ fs.readdir('sample', (err, data) => {
 		app.get('/', (req, res) => {
 			res.render('index', { data });
 		});
+		app.use('/download', express.static('sample'))
 		app.listen(3000);
 	}
 });

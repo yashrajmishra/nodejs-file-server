@@ -2,9 +2,9 @@
 	"name": "nodejs-file-server",
 	"version": "1.0.0",
 	"description": "a nodejs project to access movies",
-	"main": "index.js",
+	"main": "main.js",
 	"scripts": {
-		"run": "nodemon index.js -q",
+		"run": "nodemon main.js -q",
 		"format": "prettier --write \"**/*.{js,jsx,json,md}\""
 	},
 	"repository": {
